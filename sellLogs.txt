@@ -1,0 +1,540 @@
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000292&timestamp=1540198132032&signature=7c16fcece884c6a9f39777d924354c0288b6eef85294c160816a0a5af94259f0
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=2285.0&price=0.00000292&timestamp=1540198162965&signature=40ca65d42ef85b148a331ffa9523c8aeccea0e16a280c97dd7ab388f40cdc285
+{}
+
+https://api.binance.com/api/v3/order?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=2285.0&price=0.00000292&timestamp=1540198182534&signature=15bde1a791175a49480aa721a460083ba5a37f469d42e8ac48e3aa87a102dc42
+{'symbol': 'LENDBTC', 'orderId': 16519966, 'clientOrderId': 'ZFkA1PUJ1r4qyPHtQ5MZ6u', 'transactTime': 1540198183738, 'price': '0.00000292', 'origQty': '2285.00000000', 'executedQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL', 'fills': []}
+
+https://api.binance.com/api/v3/order?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000292&timestamp=1540241705475&signature=382aa75b9cef5f6b64633672e300a3ed32d4690823d04167d7368743af0aabd6
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order?symbol=FUNBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=3152.0&price=0.0000021566&timestamp=1540248194648&signature=3d5f607907a62035a1764d544316d8ce93e005eabd2c05bc64203723ec5284e7
+{'code': -1111, 'msg': 'Precision is over the maximum defined for this asset.'}
+
+https://api.binance.com/api/v3/order?symbol=FUNBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=6334.0&price=0.0000021262&timestamp=1540248347327&signature=ba4fcefa9a6ae2a38fc57c2471d5a8a1b0f02d4b4832d60703e627ebd4cb94cd
+{'code': -1111, 'msg': 'Precision is over the maximum defined for this asset.'}
+
+https://api.binance.com/api/v3/order?symbol=MCOBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00004118&timestamp=1540468808916&signature=7ac9cc968e805b60de1c09572e029841ee6fce1ca65b5322b3c4d6271207c263
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order?symbol=MCOBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=9&price=0.00004118&timestamp=1540468866993&signature=4a471bec407ef41a0b9c34382d97aca0a28cd50f493db3849ef561599a766ab8
+{'code': -1013, 'msg': 'Filter failure: PRICE_FILTER'}
+
+https://api.binance.com/api/v3/order/test?symbol=MCOBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=9&price=0.000041&timestamp=1540468905602&signature=a77bccdbe2986f58ad90c4ac274f15aa33b7a8c7e90f4589c6730661270ee1fd
+{'code': -1013, 'msg': 'Filter failure: PRICE_FILTER'}
+
+https://api.binance.com/api/v3/order/test?symbol=MCOBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=9&price=0.000753&timestamp=1540468953476&signature=e56c8b8a0eb0b3432e4ca53ee64f5f6cad3c5a6da00caf6695eb040d97c88d89
+{}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483581653&signature=172640255ecc5e796a0973ea53996dd56c44767d5e1bda2663773420016c3420
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483586937&signature=c4847a1a060179f4e7b61a0be2cafe3e274e6479f32b614d4408be0acb9074d9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002619&timestamp=1540483593248&signature=a33d1fad405f7dd226a16afdd36fa2e50ea2891815d93af28e6459cc77d1cd7c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483599084&signature=974b4612323a3744e3f858f84e9f496373eb7458f5e6b5bad428f4ee9cec5539
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483604381&signature=8b418a86661535b3f2f67751a2115de4d2ba7bdf93f0f0cd133db4e6f438e00b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483615421&signature=d7c3702778a0a17efbdf7a4bead79224c258f63571a375d98a4b5863dc3afeb0
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483620694&signature=4d59a44710a57005f7f3c26cc83e73f082f15a316c1b080cd9d26dd1b8904918
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002619&timestamp=1540483626023&signature=591be911fa24c3d4476fe1b606ff29c63972c65bf02d75fe95a961f8d62374f0
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483631929&signature=f53407a4f75481118347a0a31fcac7e9c0d845f29da95f7c39ebe69118ea69be
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483637811&signature=744de05657b89c63f93326251a9f32702a2f4b189f3d5d856184f6a50c4fce37
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483649255&signature=044528b0397f79c7aeb6217ad8d72acb5a732338b30a0ec464dd4518b1590863
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483654808&signature=be42322fcf269f4f057f9c26b3787acc815d2b0d77f9da220b45d85c12b90c30
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002620&timestamp=1540483660089&signature=4cd89ad4471ceed8fe1fe90cc245b650737e627245b8cd4c83989e3553de4085
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483665389&signature=157906e7a7cb885b47195497468d4e2eb87a77f6d60dd56bc239ceea1003f6a9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483670762&signature=3d3da3dad14bf54d7fb6e505c25b83847f5f8d78972a6e3bb10d010a4be089fd
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540483682834&signature=6e6efb363b65e1bfd8826b0385d616202dfa1bcd174ca727845807c79099a82e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483688664&signature=73f8fbebaea50d1f90f999d3cf15b1881b0991f3c7d84864e545226fda1a411a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002620&timestamp=1540483694511&signature=3747ead738351a04735ca555a01d625357209af627e95320e1ba144f3f02bc72
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483699777&signature=9f83ea41106a2153dac310a9f789d157f0a58efc960963e616933935c19313b3
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483705104&signature=14f93388b178b7fa5ac55094a3416110aef201d01a2e63af895de003a5dbba8a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540483716129&signature=b4352f7f8822e8c1652e8d224e09657c9f94488382271fdb5dad21a01063320f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540483722245&signature=37b18ad6a4a370a2d7d8216c631cb0e5d50ba8d6585afb19f188ac524ade34ba
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002620&timestamp=1540483727586&signature=52de73bcd633ac5f6b6df54c53537fce107e53971d3a6d867521a3ca2cfde887
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483732871&signature=b742ee7212bf356ff74c9ccf535c1fc1dad0c170d765c6488f2c1bddaca3a46f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483738189&signature=2be731de9c67eac589bf156382cd251da9089f41a594127b4422033291705e56
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540483749284&signature=b94720b66ca772f424e3d3f08a6ec032cc30b9b3b2e22cdafcb0b997c0eed8a1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540483754615&signature=54fe300240acc777355326c152c999cf5d9af4a58c410fe16525495fc95c51fd
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002622&timestamp=1540483759945&signature=5a4b582819a26712a6fe4c5251cd6d7558b80e6795020fd90ea27d68a6198177
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483765210&signature=3b6ac8d4492a27cb8916d4b91c63728738a0b22dae88dcda2497d2c29907fa28
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483770560&signature=eb307c8269a612e869a58c626f237e895ba7ebb963e3586d95055d32fc999bfc
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483781524&signature=173bca14b5b19122f5da4366589f3883d7ac82451a87da0f69721fcb744929b9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483786808&signature=21ca3176106c2bf52e1f5389b6f54b50a0b159178c60dc8f59efc55e1a79967b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540483792255&signature=964257f5abf30f3539542f401b3d0237f63bbe7e121c105a98284823d790cfb8
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483797497&signature=b15e599a67ac256a8c9de4000e09ddc77c18d1bb6b3c4e05743b56fdb76708f3
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483802783&signature=c5f59232539a0a506d3da6d3bcbdfcb48621ba0205df0b6cacc64d36e56a216d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483813755&signature=5b9dba6a21b60d3bcf7a13aa3a4e64a99f4586f83d8f359a23f9fc7b0aab3799
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483819060&signature=2c3dfc97f677c9ef846a0faf9d22a55339167749f0f293df8fda55d01c19a82f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540483824346&signature=b25329952c9a66352bf96456fe55f092e5c69375030039052b131ac7333acb4b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483829634&signature=945a1623f8f24bbfebd3c5657c8f1d879828a2c86a89df9d34e8bfdaadc5e263
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483834926&signature=107d8d7d6770a813a948972cd5dda6a6c369041aaf7e90ff67237e6e636a8d41
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540483845873&signature=f772f181518e70e2ac1e72ac2de3ba42a6f929de93c4a82f56a3865e388e157f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540483851103&signature=fdf6ff0fae0438743ba5cd91673de763f6da82604874005b7992180b02496292
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540483857450&signature=0fe74bd58ab31dc48d4e38a23987746984c9270d4770283fb7ae35eeda17810a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483863226&signature=cfe74080f71bf4ba8eb08b011750c586b3ac4b0fc7d5526b25b3f9604d2b7a7c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001500&timestamp=1540483868546&signature=529f95621dbcf9ab70e0e3beb6c600c6e9ef368f160f4094d3f3a8f3f148cbd8
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483879497&signature=88a39294ef4749c0c9c1bf7d39ff7c0813b39e90864d3540a0ba0fa456710a51
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540483884747&signature=8db43cf81433b3cca66f12a954b0e8cf1b9705d8c43aeb81dfdf737e50dd754c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540483890038&signature=6e71bd1bdd9929d48e0cb7e64e24b1591fe9b17033139691412ecd4adc44928d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000300&timestamp=1540483895278&signature=5310e31fdef77b559c15090b62f37a91724c6448f90a03b4206450b121f1731c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540483900580&signature=55c82a4a8f9b0fdb24cd48863d4c943601df78384784ec0cdd6c8a25e0f4db91
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483911529&signature=baee8aced08acdb94b81df3e0409118fa4488e2bf94a8595b93c048bb811e321
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483916883&signature=751a0ac8ee8bba1dada9fcd206cfc5d29306803add631229041bff6759a6de5e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002622&timestamp=1540483922661&signature=1e5f6ccff5bf89c893c9ec9b5bd0ef370ce142a4a03e9360962d8b42b1d671a9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540483927989&signature=943a59bddfb661a9cf11eeae69a798566dab52f590b946389880b5113b99cc0b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001504&timestamp=1540483933330&signature=9939a0bb5ad88a94c04e83ba3fea0bd977ada73e050a0c2ad86d11d278eeb75c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483944792&signature=46383a34db2e20cb337dcadf8f0415f1d0192e4b9b854d3896b5a85885f12c27
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483950068&signature=ef861bcd60cdf76db7c0f57cb61dfd904c70732767387059cce19a2736cc5b9d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002622&timestamp=1540483955348&signature=b20ed665d88f1c2068824e2cb802e2dccbcfa4ac32063753b001d84759848c24
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483960616&signature=ce4199fd933e3915bd15d75f87a20cd2e08e3919a20ddb56e636b39baf747705
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001502&timestamp=1540483965873&signature=7e8546bfba9eb3edcec1165cb5a98f166bb8dbc144b73e6d4c391888a5e93b5b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540483977417&signature=e0b7a6ea8541e67041bd33e3c0b507f41e9bb09845226b802c08a6e46e8d4a5f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540483983232&signature=5341d3207a388e9ee7f6a7204bb7b02b40e1c0722709bfdc7ec516f4ba9b691e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540483988533&signature=813a6c149ddeffad25c3e4c6526b712dd0f8b34984e4dbaf3475016e39650ce9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004541&timestamp=1540483993861&signature=c33f3e9b32548d5b8721452c1783f707884cc72794202e0eceb22c6898e6891c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=AIONBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0000655&timestamp=1540483999183&signature=322c6c3a12db84fd6f9e1e37abd3400a500905b5dd48b2f3a07c67f66e5e6f66
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484010201&signature=88df22e213a2ea95546f89176cfc04b516f3fc155d4e18722991eae6856edaa2
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484015502&signature=2e45395ad3933f4c3c6c4d4e4ea7ef7c61ba33befc259e772de5c36167ea1af4
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484020810&signature=4301ad63b5ff753baee06a4cd2fd61a1a842280737320ca8f5d2fd47ae4ce124
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484026040&signature=8330e298d9612a7e9d5c98e2c1cf0fd38599addd2517000b996630dff1b0f492
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484031858&signature=492c48dcbab9c0a86f790fa4568db15b77276f1a15e165544588154464e389ec
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484042826&signature=11839e4914a4b7658497fdc99e80034c24d660b4f59fefee56f8b0295189be1d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484048137&signature=dc3704b99127e80c160a5df8bcedc09ff947a5fff301d4178cc156989bf5123e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484053408&signature=7cabd24fbbf28442d7b20bb8e4a200ad214d7d1c2c9d44af59aa509085fc0905
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484058732&signature=21f332406eb2d5a9e8ae4ddc151534305f986c0dcc48403c3a1c75a2bf823192
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484064006&signature=9b0bbcdf812f0227ad6834a83d0555f3166ae07e0cf6e2a9e6907259a9375128
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484075044&signature=b4926e3089ff8def4692c3023b3bcf92ff735cefc82af582e6f87494e481b0ea
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484080859&signature=31e53df6f4cb352190bd66f92cfd4b77e4f3f668b834092f9c3aa84c241d60f7
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002619&timestamp=1540484086118&signature=c927db5be8d0e04b880d51dea7127b4791da3d15e808f7ef1e47b419a17e8e8e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484091410&signature=7354235c8da63c5e7e03dbeb205c5762a78d7723556371a4cc8e989de76d55de
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484096732&signature=9b3a93de760dfecb68ad0616f1b4a5e5831598ed188e19c169cae9cedb48c455
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484107739&signature=b95dc2f2e3e9c8fefe4693dc0c479c436af6942eca0a5b997698049ffb47f633
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484113058&signature=8f07318d091200ce4cbeb1cdb7fcb6ece79349c83a02cabd25189b8b2842a59a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002622&timestamp=1540484118485&signature=547e3cd055b21825c8dcfee664429d349f718815b09b4a39dee5392259a772b1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484123838&signature=786de0e1f8227d3ac6ee229b24d684bcaab334c10991642e57e745022b8be2aa
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484129247&signature=44499413392847214b89d89d09e13bc443d94170b9b2949289c416611804d27a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484140857&signature=82508f81f46e3d57569490ce24db0402443d847f3156e30928e7b7d50589ec6b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484146820&signature=44e0e5706fe394cce3560ba37ebeb17fd54540b4f8bccc541f516ab5471d1748
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484152491&signature=e8a0f98dcd83824ed8c18dd917b626710f7f1128cc66415984e4d03b37c3ca89
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484164251&signature=38754c7925c1888fb4bc55f13c0f965e93c616a85d74b1208453738e172c5cbd
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004549&timestamp=1540484171477&signature=846595fb342062eeb4edfa192c7083d3059ed8e2a38c88745d829923adc04daf
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000346&timestamp=1540484182573&signature=c3bb3fea3d8af1d4f58b89c198efc7efaadef15035bb94a7d9ba9713a7194dae
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484187904&signature=578957cfa005d8f66e6a139eb25a25b663dde1a46eb8251d6a79a91aabb523ed
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484193260&signature=606b39845baee28dbbae9dc62bffe0e29d9818a0b26580971b843c382b6fd692
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004545&timestamp=1540484201389&signature=edb4c2c04c65642bd8e0d03fe569fefc5ac8d771339712e217e430153b2de6d1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001502&timestamp=1540484208318&signature=b88eeabb6053197f6356de054d2c3e17d0bad67d1c1ea2fe57355667c5c8dcdf
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484219709&signature=974a68c1e4d5d6a500a7b1ca3c19004f8d50da3b154bd306fa6bb7626d8ab83a
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484225614&signature=cc31c4682696325fa812fb0b6341e76e3586f3dcc277e1bda27bbfaffcd1e49c
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002622&timestamp=1540484231023&signature=30bf96d94b58f0e6771a4b196c02d508ff7f15b801d6b37e455b3aab9b1c9ab4
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484236496&signature=7e39ff38ef89b9ef4151a2e67a6c9bb94bc7baee99b6b00303832f472873e94e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004550&timestamp=1540484242076&signature=6d7bc83f953bf8dc4427c91b15ce0ee15c8c0b76529f0958da3e09f22b08ed4f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484253950&signature=50577c58691249255926e396271ae7e997d9bea4a389fb5d9a90f018416bd49b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484259359&signature=7e4c571d9729e3c3fbb1eabda9582d873fade9ec1a97d02c26233bb9ca260e41
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484264699&signature=e8be740e1a1e9e8dfd2f13cee9ba9f6edb898d8fdd70de329aab4d9f2f3823e4
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001502&timestamp=1540484270111&signature=597f9190e0ba77cfbdc70d3834d41292d460e691b40dc30390f66929531f8364
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004550&timestamp=1540484275551&signature=01ee7919ee64513d5d7274a16b35ac731ed73caf8e6195a28ce4714139549408
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484287211&signature=fd99439a22f38a3a4c5d3606c56fd1e0bd7af1d0e21a15fe9b71c40eb8dbb299
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484292579&signature=14b4eee7ff1ead64f2486b594e8bc42e127736be9cbda4f916af35e24b9799e1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484298019&signature=03c5899337bf973356f01194e32d87f37ecdffa82375eae34ddc8a6b2a84f58e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484303905&signature=62094d175a7df0eeb3dd3c92094c323f9ff7ec5684c52b4f4778c3fc9cb44978
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004550&timestamp=1540484309321&signature=791cc6a361b929a034d543b374bbdd1df028ebb9fe42780c6313b1d407b8539b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484320466&signature=bd1590c66eaac064d1f9980a957b6a63742d3c0fa3c3fb971d6a5c7b7f353826
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484325795&signature=e811ecd0dc9feede0b0c21e7bafb36e5c0542acc533cbab9e491e46fc394120b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002623&timestamp=1540484331288&signature=ae64aa347406c41aab16e5df3c438411535865b79e921b9cb0b2b76c58fa5e38
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001496&timestamp=1540484336627&signature=d498009d778f67268bdb8f43bce21855541dced5c2433d6f3f9e912df8a8af36
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484342041&signature=fe59eaeedf4fe620a6389cd7edb3ab4fa2ae2d69bed4b9a407918ab8c0fd6ae3
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484353836&signature=fea9f325763eedcb1973e877cb641a71e8294100231b780c2c60bb083aee4b77
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484360320&signature=9c935c714f8b9f7e76fce656cc929e89903128bc1ae9d0e363f8891e79634202
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484365738&signature=3afd4fc448578cbeec1bc21159508258ff87c6d29261a13245832ce5ca20960d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484371210&signature=71a3db022b0129a28e327be5c9830fd79887238d33d4d3a1a0e9b67990020281
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=AIONBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0000654&timestamp=1540484376534&signature=afed7c46db16c66597739c3d24b282375998ed04814a1db695bbcca0ee51cf7d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484387758&signature=7f4c8a88a0862335dff8ff17739568a56f753b870a57188009d3b1eee99192cb
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484393919&signature=107f08062faff57ca17eb17f859a21649b5fdcba2988b669be65292c956d3969
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002625&timestamp=1540484399284&signature=b0b722d8ab8ee226998dd44e0422e095a78519f21242aebdd606a2496d2d8034
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001498&timestamp=1540484404596&signature=1e4e80e26d86b1d08fbc83d57c8b2de2ee6a8826755c88cded61821722c7fa4d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=AIONBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0000654&timestamp=1540484409942&signature=528bf62c69fe6bab7ea09bd5b4901d8761ede08fe69372e9b60709de2861d1ab
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484422308&signature=7df32f08f75b71d2a8b09823537d1bf9345b44ecdfc6bee2d410cc59ab2ac1f3
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484427606&signature=dd7e76e393b06c39f02ed675151d6e6b3e8eb8d4dcad0667ec6d768b54032c45
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002625&timestamp=1540484432947&signature=23836441b5670182f0f300bdd11d5542ec4b166362efa2242757c5b93b46b93f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540484438232&signature=86fcef3048b993cd858e44e1e6a51024cd38259560b42d0e5f6c8f60cdb86d54
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484443608&signature=4ad714c0b8f881e68ed2654bd3eddedeb3bc568e917cc94fc7c13de41b8d59f9
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484454753&signature=6d8bd78477df0da5cd804bcec60c7684f93a396152d56b30df04368e826ebd01
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484460131&signature=aa17f5b81019add8432ca2b1f92dcc55753732a7ba4503ec26632238e3277acf
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002625&timestamp=1540484465457&signature=307e0e70bc9d0293b2dd61e24b4356c54e54d8342f0527980240c2bd71735773
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540484470841&signature=12c1dee7459d39672b309fd24010c37333ff3ddd7e37c569136d2f742deb4531
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484476743&signature=2a6fd42fa08bfef1de8853a0ff042b69e092d0153091468ea6de77157e85f57f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484488035&signature=4fbf0ec26a75c605b4cc7f12ee7616411e3c9282df64e6c8f2e4eddf173224a6
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484493418&signature=6f92144ad78f5e8beadd5edc63e8bcf9f4bfc3dc23cf8400022033a8db517256
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484499753&signature=cda5ad1666953da0d29a96d341cc8676b8e4c5e4a9cefcfa383c6f40119dcaf6
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540484505163&signature=8dbba928066e60189503982aeac6096f87d6a4602aa5c1b67fa82637e1da5110
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484510635&signature=4c8bf8fb30ac9078d2168f4344e5affd9f629bb61a3b408eb6feba3e69e09586
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484521870&signature=7d534a8ae7c8d9811f96b5e36998bbdf25fb395a25a47bc8b8b85d8f85eb5009
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000114&timestamp=1540484527191&signature=000ecbda6f40c104ddb8562b82c7ee07c19ff0f374b4fec9c7669f51c77d7eab
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484532581&signature=850d392bdf026ee0246774f60384998cc1609dedab86e0b6b4658bb244a70d5d
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484538563&signature=439adb891fee9eb377ecea0c6868efef09f7b673382bebe05c1e0742cb5b69be
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004547&timestamp=1540484544540&signature=05dfc0b808f252d7fc928006281041dde3c3403c3b0a3ecf9ce6cfc76cf0592f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484555783&signature=48add339a8c1d913d797d95e11410482cc721307f3572886461ec05e7e27c9f3
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484561455&signature=a4b93a15ebba1637b3047703ec5eb356142ac477dea9e2c87068064f05793ff4
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002625&timestamp=1540484566878&signature=6e629936c57dd26ec421627ee939ec07d8704c098244cf0ad0a96ec3701662b8
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484572291&signature=cd25cbe73fc3869d095c06c41de8f0e9a4c33566558fdf96efd4818351abd45e
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004547&timestamp=1540484577682&signature=5d53c032712f58a09dd7eaa8157cdce67cb02d5e36dace0090b522141cd53ec8
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484589503&signature=daa4bdd4c0ac490d4e53b3e997b8fb32a2e38e999c4c75557d11c10ae49046e5
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484595458&signature=7d4d8c35d570f54fa9522cfe7e398690592577c3a60eeaf51786bc96a30817d2
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002625&timestamp=1540484600860&signature=a4911683f4ff892d854fb27321a2e4049678c6d7ca4be3930ea5a9aed305a281
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=XEMBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00001496&timestamp=1540484606535&signature=6b73118bece7732407599fb85a162831af54b6a8b0f8739ae650a7ebf1ba5aa2
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484612040&signature=71d3bb51b7945ed164bdd08ce742f40d1909d3ec96933f2fceb462781e435d53
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000344&timestamp=1540484625913&signature=90c71beb2ac366746ff027775e01ba36d57fc81c45407e95623b0045e75916aa
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484636581&signature=6c9150df55599d4d4e2c5b7941f6efc60205979bd4f03485b64769f0e6cc56f0
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484644394&signature=360ed95affde977d906158d63f1e5b806f686cee64ad9da1c69d5989e68b7401
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540484649956&signature=ee6d0cdfa362b29e4bc52fce64c69c83e1a4384823c63f16f5d14d5c71442631
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LENDBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000301&timestamp=1540484655405&signature=a8fb618a97ae802a09b501bdf8ea98bcacc85d2df330dfc1c962bb230182c421
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484666643&signature=1e06bb3e5a5c8e5e9ae982f7bc890d9cc48595b6f0df4e8c42a85d139a2d3439
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484672230&signature=147b40329fcb860afe638b6dfe1c936d8b8d225153fb4375952c79239cf5dfc1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484677697&signature=37af8dffb7beaf58c0b69d62e1e72c5a2a65f179382ab134398915ef7498881b
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004536&timestamp=1540484683109&signature=c74927b7cef395d73a94cdc7175d0213955dbd1f17153bee0322ee6a5782ffcc
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=AIONBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0000655&timestamp=1540484688468&signature=deb6c5f26e9f3d42179b0b9ddc784b1c28102513000f5fbe2c637ce85369cb88
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=FUELBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000345&timestamp=1540484700054&signature=b7c48858347ead78928794da98d8ff84f9dbbbb290e861a746b2764cd5f1bff8
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=SCBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00000113&timestamp=1540484705701&signature=a9154d70675fe9c24195f66844fd6e3b7deff3159428efd987902f58b2093df1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=POWRBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.00002626&timestamp=1540484712543&signature=48c259a97724c4f1ce473091e6fba6c19186721d05107dc1f465dc9667c94f37
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=LSKBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0004534&timestamp=1540484718865&signature=690b0a91aab88ee91261ef80bcdd59d6df0f6cfbe829dcd06acecf62445e1e1f
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
+https://api.binance.com/api/v3/order/test?symbol=AIONBTC&side=SELL&type=LIMIT&timeInForce=GTC&quantity=0.0&price=0.0000655&timestamp=1540484724683&signature=62775f43d8aa906533820aca68b6fbfd309dd56f20c03a5929546e116f5b8dd1
+{'code': -1013, 'msg': 'Invalid quantity.'}
+
